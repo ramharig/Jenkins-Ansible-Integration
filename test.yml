@@ -1,0 +1,6 @@
+---
+- hosts: 172.31.30.240
+  tasks:
+    - name: echo hostname
+      win_command: whoami
+      register: whoami_out
