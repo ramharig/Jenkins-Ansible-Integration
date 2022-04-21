@@ -1,0 +1,13 @@
+[appservers]
+172.31.87.175
+
+
+[win]
+172.31.30.240
+
+[win:vars]
+ansible_user=ansible
+ansible_password=Friday1$
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+#ansible_winrm_port=5986
